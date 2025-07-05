@@ -36,3 +36,11 @@ _______NUXT MATERIAL_______
 -tambahkan layout baru di direktori `layouts`
 -hapus atribut `name` pada NuxtLayout yang ada pada file main pointer `app.vue`
 -tambahkan definePageMeta({layout:'layout-baru'}) pada script di halaman yang ingin menggunakan layout baru
+
+----------------------------------------------------------------------------------------------------------
+STYLING USING TAILWIND
+
+1. Setup Tailwind
+-src: https://nuxt.com/modules/tailwindcss 
+
+2.
