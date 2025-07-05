@@ -43,4 +43,9 @@ STYLING USING TAILWIND
 1. Setup Tailwind
 -src: https://nuxt.com/modules/tailwindcss 
 
-2.
+2. Styling Layout Using Tailwind
+-styling `layouts/app.vue` mengikuti dokumentasi tailwind
+-property class suggestion di tailwind kenapa tidak muncul?
+
+3.
+
