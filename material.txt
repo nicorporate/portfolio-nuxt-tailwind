@@ -1,4 +1,5 @@
 _______NUXT MATERIAL_______
+
 1. Cara Membuat Halaman
 -Buat halaman baru di dalam folder `pages`
 -Struktur direktori pages:
@@ -38,6 +39,7 @@ _______NUXT MATERIAL_______
 -tambahkan definePageMeta({layout:'layout-baru'}) pada script di halaman yang ingin menggunakan layout baru
 
 ----------------------------------------------------------------------------------------------------------
+
 STYLING USING TAILWIND
 
 1. Setup Tailwind
@@ -47,5 +49,16 @@ STYLING USING TAILWIND
 -styling `layouts/app.vue` mengikuti dokumentasi tailwind
 -property class suggestion di tailwind kenapa tidak muncul?
 
-3.
+----------------------------------------------------------------------------------------------------------
+
+_______NUXT MATERIAL_______
+
+1. Menggunakan Komponen Terpisah
+-buat direktori `components` dan buat file component `Header.vue`
+-pisahkan tag header dari `layouts/app.vue` -> `Header.vue`
+-calling component header pada `layouts/app.vue` menggunakan <Header />
+-mengubah sedikit styling di `Header.vue`
+
+
+
 
