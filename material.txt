@@ -19,8 +19,15 @@ _______NUXT MATERIAL_______
 --Gunakan NuxtLink untuk berpindah ke halaman yang ada didalam direktori (internal)
 --Gunakan anchor href untuk berpindah ke halaman yang tidak ada didalam direktori (external url)
 
-3. Cara menambahkan parameter route di pages
+3. Cara Menambahkan Parameter Route di pages
 -Berguna untuk route yang memiliki parameter dinamis
 -Bisa menggunakan [nama-parameter].vue di dalam direktori yang akan memiliki url bercabang,
  contohnya: [id].vue
  kemudian untuk calling bisa menggunakan {{ route.params.id }}
+
+4. Menentukan Layout Halaman
+-Untuk membedakan mana halaman yang harus memiliki layout sama dan layout berbeda
+-Akan menggunakan `slot` untuk menyisipkan halaman ke dalam layout
+--`slot` atau <slot /> adalah space kosong yang akan merender sebuah komponen secara dinamis 
+  pada saat menggunakan layout default
+-Ada perubahan pada file main pointer `app.vue` dimana <NuxtPage /> akan dibungkus dengan <NuxtLayout></NuxtLayout>

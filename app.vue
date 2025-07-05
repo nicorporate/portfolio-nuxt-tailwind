@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <!-- <NuxtRouteAnnouncer />
-    <NuxtWelcome /> -->
-    <nav>
-      <ul>
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-      </ul>
-    </nav>
-    <NuxtPage />
-  </div>
+    <!-- <NuxtPage /> -->
+
+    <NuxtLayout name="app">
+      <NuxtPage />
+    </NuxtLayout>
 </template>
