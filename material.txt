@@ -59,6 +59,12 @@ _______NUXT MATERIAL_______
 -calling component header pada `layouts/app.vue` menggunakan <Header />
 -mengubah sedikit styling di `Header.vue`
 
+2. Mengubah Informasi Pada Bagian Head
+-menggunakan `useHead` didalam script
+-mengubah title di tab browser dari setiap page
+-implementasi custom font
+-src: https://nuxt.com/docs/api/composables/use-head 
+
 
 
 

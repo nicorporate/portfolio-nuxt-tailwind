@@ -14,6 +14,13 @@
         </div>
     </div>
 </template>
+
+<script setup>
+useHead({
+  titleTemplate:'%s - Porto'
+})
+</script>
+
   
 <style scoped>
 .container{
