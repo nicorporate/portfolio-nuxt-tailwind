@@ -31,3 +31,8 @@ _______NUXT MATERIAL_______
 --`slot` atau <slot /> adalah space kosong yang akan merender sebuah komponen secara dinamis 
   pada saat menggunakan layout default
 -Ada perubahan pada file main pointer `app.vue` dimana <NuxtPage /> akan dibungkus dengan <NuxtLayout></NuxtLayout>
+
+5. Membuat Layout Berbeda Untuk Beberapa Halaman
+-tambahkan layout baru di direktori `layouts`
+-hapus atribut `name` pada NuxtLayout yang ada pada file main pointer `app.vue`
+-tambahkan definePageMeta({layout:'layout-baru'}) pada script di halaman yang ingin menggunakan layout baru

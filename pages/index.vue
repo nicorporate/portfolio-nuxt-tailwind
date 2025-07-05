@@ -6,8 +6,9 @@
     </div>
 </template>
 
-<script setup lang="ts">
-
+<script setup>
+definePageMeta({
+    layout: 'app'
+})
 const route = useRoute()
-
 </script>
