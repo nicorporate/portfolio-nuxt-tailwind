@@ -1,0 +1,22 @@
+_______NUXT MATERIAL_______
+1. Cara Membuat Halaman
+-Buat halaman baru di dalam folder `pages`
+-Struktur direktori pages:
+--pages
+---about.vue
+---blog.vue
+---index.vue
+-Pada pointer `app.vue`, gunakan component `NuxtPage`
+-Routing otomatis sesuai dengan nama file yang dibuat, seperti: http://localhost:3000/about
+
+2. Cara Berpindah Halaman
+-Bisa menggunakan <NuxtLink to"{filePath}"></NuxtLink> instead of using <a href=""></a>
+-Hal ini karena jika menggunakan anchor (a), setiap perpindahan halaman akan melakukan request ke server
+--Tentu akan memakan banyak bandwidth dan memory
+-Sedangkan jika menggunakan NuxtLink, request server hanya dilakukan sekali saja saat perpindahan halaman
+ walaupun yang direquest sama
+-Best Practice:
+--Gunakan NuxtLink untuk berpindah ke halaman yang ada didalam direktori (internal)
+--Gunakan anchor href untuk berpindah ke halaman yang tidak ada didalam direktori (external url)
+
+3.
