@@ -19,4 +19,8 @@ _______NUXT MATERIAL_______
 --Gunakan NuxtLink untuk berpindah ke halaman yang ada didalam direktori (internal)
 --Gunakan anchor href untuk berpindah ke halaman yang tidak ada didalam direktori (external url)
 
-3.
+3. Cara menambahkan parameter route di pages
+-Berguna untuk route yang memiliki parameter dinamis
+-Bisa menggunakan [nama-parameter].vue di dalam direktori yang akan memiliki url bercabang,
+ contohnya: [id].vue
+ kemudian untuk calling bisa menggunakan {{ route.params.id }}
