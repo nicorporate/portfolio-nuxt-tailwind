@@ -23,6 +23,16 @@ useHead({
     },
   ]
 })
+useSeoMeta({
+  title: 'My Portfolio',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogTitle: 'My Portfolio',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'My Portfolio',
+  twitterDescription: 'This is my amazing site, let me tell you all about it.'
+})
 </script>
 
 <style>

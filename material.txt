@@ -65,6 +65,9 @@ _______NUXT MATERIAL_______
 -implementasi custom font
 -src: https://nuxt.com/docs/api/composables/use-head 
 
-
+3. Config SEO page
+-agar isi dari website kita mudah ditelusuri oleh search engine (google), mempengaruhi urutan website
+-menggunakan `useSeoMeta` didalam script
+-src: https://nuxt.com/docs/getting-started/seo-meta 
 
 
