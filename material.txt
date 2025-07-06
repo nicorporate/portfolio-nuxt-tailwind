@@ -75,4 +75,5 @@ _______NUXT MATERIAL_______
 -`$fetch`: server req data ke API, kemudian fetch juga di sisi browser
 -src: https://nuxt.com/docs/getting-started/data-fetching
 
-5. 
+5. UseFetch
+-fetching dilakukan hanya pada saat komponennya diperlukan
