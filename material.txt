@@ -70,4 +70,9 @@ _______NUXT MATERIAL_______
 -menggunakan `useSeoMeta` didalam script
 -src: https://nuxt.com/docs/getting-started/seo-meta 
 
+4. Mengenal Data Fetching
+-baru menggunakan `$fetch` saja
+-`$fetch`: server req data ke API, kemudian fetch juga di sisi browser
+-src: https://nuxt.com/docs/getting-started/data-fetching
 
+5. 
